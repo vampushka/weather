@@ -1,10 +1,12 @@
 body {
-  background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
+  background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg");
+  background-size: cover; /* This property ensures the image covers the entire background */
+  background-repeat: no-repeat; /* This property prevents the background image from repeating */
 }
 
 a {
-  color: #885df1;
+  color: rgb(249, 127, 145);
 }
 
 .weather-app {
@@ -31,7 +33,7 @@ header {
 }
 
 .search-form-button {
-  background: #885df1;
+  background: rgb(249, 127, 145);
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -63,7 +65,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: #f65282;
+  color: rgb(249, 127, 145);
 }
 
 .weather-app-temperature-container {
@@ -81,7 +83,7 @@ main {
   font-weight: bold;
 }
 
-.weatehr-app-unit {
+.weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
 }
